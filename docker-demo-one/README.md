@@ -35,6 +35,6 @@ PULL and RUN docker image from docker hub:
 
 2. Pull and run the image in single command:  
    ```
-   docker run -p 9090:8080 docker.io/lokeshjavatech/my_image:latest
+   docker run -p 9090:8080 lokeshjavatech/my_image:latest  --> it will automatically download from docker.io
 
 3. Now access GET endpoint: http://localhost:9090/user
