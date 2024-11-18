@@ -1,0 +1,10 @@
+services:
+  my-docker-compose-demo-service:
+    image: lokeshjavatech/docker_compose_demo_image
+    ports:
+      - "9090:8080"
+    networks:
+      - docker_compose_demo_network
+
+networks:
+  docker_compose_demo_network: {}
